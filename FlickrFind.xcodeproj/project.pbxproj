@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1AA9E5D1ED6DB3B00B9A74A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA9E5C1ED6DB3B00B9A74A /* Constants.swift */; };
+		F1AA9E5F1ED6E01100B9A74A /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA9E5E1ED6E01100B9A74A /* GCDBlackBox.swift */; };
 		F1CB94381ED5ADC300327AA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB94371ED5ADC300327AA7 /* AppDelegate.swift */; };
 		F1CB943A1ED5ADC300327AA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB94391ED5ADC300327AA7 /* ViewController.swift */; };
 		F1CB943D1ED5ADC300327AA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CB943B1ED5ADC300327AA7 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1AA9E5C1ED6DB3B00B9A74A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F1AA9E5E1ED6E01100B9A74A /* GCDBlackBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
 		F1CB94341ED5ADC300327AA7 /* FlickrFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CB94371ED5ADC300327AA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1CB94391ED5ADC300327AA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				F1CB94371ED5ADC300327AA7 /* AppDelegate.swift */,
 				F1CB94391ED5ADC300327AA7 /* ViewController.swift */,
+				F1AA9E5E1ED6E01100B9A74A /* GCDBlackBox.swift */,
+				F1AA9E5C1ED6DB3B00B9A74A /* Constants.swift */,
 				F1CB943B1ED5ADC300327AA7 /* Main.storyboard */,
 				F1CB943E1ED5ADC300327AA7 /* Assets.xcassets */,
 				F1CB94401ED5ADC300327AA7 /* LaunchScreen.storyboard */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					F1CB94331ED5ADC300327AA7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V2XCNE93DB;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1AA9E5F1ED6E01100B9A74A /* GCDBlackBox.swift in Sources */,
 				F1CB943A1ED5ADC300327AA7 /* ViewController.swift in Sources */,
 				F1CB94381ED5ADC300327AA7 /* AppDelegate.swift in Sources */,
+				F1AA9E5D1ED6DB3B00B9A74A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2XCNE93DB;
 				INFOPLIST_FILE = FlickrFind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = light.FlickrFind;
@@ -270,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2XCNE93DB;
 				INFOPLIST_FILE = FlickrFind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = light.FlickrFind;
@@ -297,6 +308,7 @@
 				F1CB94481ED5ADC300327AA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
