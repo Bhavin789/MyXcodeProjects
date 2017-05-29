@@ -8,6 +8,8 @@
 
 import UIKit
 
+// It uses Flickr API
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
